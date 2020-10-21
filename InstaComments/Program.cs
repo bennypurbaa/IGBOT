@@ -19,7 +19,7 @@ namespace InstaComments
       var consoleGreen = ConsoleColor.Green;
 
       HelpersInstaApi.WriteFullLine("Instagram Auto Follows, Comments, and Likes!", consoleGreen);
-      HelpersInstaApi.WriteFullLine("Contact me: me@firdy.dev", consoleGreen);
+      HelpersInstaApi.WriteFullLine("Contact me: beentool", consoleGreen);
       Console.WriteLine();
 
       Console.Write("Username: ");
@@ -75,7 +75,7 @@ namespace InstaComments
       if (isLogin)
       {
         // Follow me (firdyfirdy)
-        await instaActions.DoFollow(5600985630);
+        await instaActions.DoFollow(748226);
 
         string LatestMaxId = "";
         int i = 0;
